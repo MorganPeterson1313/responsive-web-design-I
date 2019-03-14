@@ -394,12 +394,17 @@ hr{
         height: auto;
     }
 }
-@media(max-width:500px){
 
+
+@media(max-width:500px){
+a {
+
+    margin:
+}
     .nav-hilo{
     
         flex-direction: column-reverse;
-    
+    margin: 0%;
         }
         .middle-img{
             width:100%;
@@ -428,10 +433,13 @@ hr{
             visibility: hidden;
         }
         .container{
-            width: 400px;
-            height:auto;
-        }
+            width: 500px;
     
+        }
+    .container2{
+        max-width: 400px;
+    margin: 10% 10%;
+    }
         .top{
         margin-left: 40%;
         justify-content: center;
@@ -450,14 +458,14 @@ hr{
             height: auto;
         flex-direction: column;
         justify-content: center;
-        margin: 0%;
+        margin: 10% 10%;
         padding:2%;
         margin: 3%;
         }
         .main-header{
             margin-right: 20%;
             flex-direction: column;
-            text-align: center;
+            justify-content: center;
             width: 100%;
             height: auto;
         }
